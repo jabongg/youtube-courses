@@ -1,13 +1,14 @@
 import react from 'react';
-import {Jumbotron} from 'reactstrap';
+import {Button, Jumbotron} from 'reactstrap';
 import {Card} from 'reactstrap';
 
 const Home = () => {
 
     return (
-    <div>
-           <h1>Welcome to Home</h1>
-    </div>
+        <div>
+            <h1>Home</h1>
+            <Button color='success'>welcome</Button> 
+        </div>
     );
 };
 

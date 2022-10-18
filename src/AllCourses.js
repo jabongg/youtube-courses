@@ -4,10 +4,10 @@ import Course from "./Course";
 const AllCourses = () => {
 
     const [courses, setCourses] = useState([
-        {title:"Java Course", description: "this is Java course for beginners"},
-        {title:"Django Course", description: "this is Django course for beginners"},
-        {title:"React Course", description: "this is React course for beginners"},
-        {title:"Javascript Course", description: "this is Javascript course for beginners"}
+        {key: "1", title:"Java Course", description: "this is Java course for beginners"},
+        {key: "2", title:"Django Course", description: "this is Django course for beginners"},
+        {key: "3", title:"React Course", description: "this is React course for beginners"},
+        {key: "4", title:"Javascript Course", description: "this is Javascript course for beginners"}
     ]
     );
 

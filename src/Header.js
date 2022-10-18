@@ -1,9 +1,11 @@
+import { Card, CardBody } from "reactstrap";
+
 function Header() {
     return(    
         <div>
-            <div style={{background:"#88c487"}}>
-                <h1>My Header</h1>               
-            </div>            
+            <Card className="my-2 bg-warning">
+                <CardBody className="text-center my-2"><h1>Welcome To Courses App</h1></CardBody>
+            </Card>           
         </div>   
     );
 }
